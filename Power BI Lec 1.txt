@@ -1,0 +1,27 @@
+Power BI :
+* Business Intelligence  : It is set of process, architecture and technology which convert our raw data into 
+meaningful information using graph and chart and from there we can get insights to grow our business.
+
+Data Preparation ---> Data Model ---> Data Visualization
+
+ETL Tools:
+     1)SSIS :SQL Server intergerted service
+     2)Informatica
+
+Fact Table
+Dimension Table 
+Schema :
+1)star 2)snowflak
+
+
+1) Primary Key : It is used uniquely identify records in table.
+Features : a) no duplicacy
+           b)no null values
+           c)In table there is only one primary Key.
+2) Forign key : It is relation between two table.suppose we are joining two table with the help of common keys 
+one act as primary and foreign key.(forign key must be primary key in other table).
+---Forign key is reference of primary  key in anouther table.
+Id name age        order_Id name                     orderid is forign key which is referncing primary key of other table which is id.
+3) unique Key :there can be multiple unique keys for table and can have null values.e.g : mobile no can be unique or null,pan no.
+
+Difference betwn union and join ?
